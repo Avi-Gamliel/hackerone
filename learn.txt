@@ -1,0 +1,9 @@
+// find type of sql 
+
+mysql      -> AND 'foo' 'bar' = 'foobar'
+mssql      -> AND 'foo'+'bar' = 'foobar'
+postgreSQL -> AND SUBSTRING('foo', 1,1) = 'f'
+Oracle     -> AND LENGTHB('foo') = 3
+
+
+
